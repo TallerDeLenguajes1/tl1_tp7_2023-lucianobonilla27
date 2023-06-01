@@ -2,3 +2,4 @@ El parámetro --output en el comando dotnet new console --output se utiliza para
 
 El comando dotnet new console se utiliza para crear un nuevo proyecto de consola en C# utilizando la plantilla predeterminada. Al agregar el parámetro --output seguido de una ruta de directorio, se indica que el proyecto debe generarse en ese directorio en lugar del directorio actual.
 El parámetro --output es útil cuando deseas especificar un directorio personalizado para generar el proyecto en lugar del directorio actual
+Si solo utilizas el parámetro --output sin especificar ninguna ruta de directorio después de él, se utilizará el directorio actual como ubicación de generación del proyecto.
